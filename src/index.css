@@ -1,0 +1,51 @@
+body {
+  background-color: rgb(252, 252, 252);
+  padding: 20px;
+  margin: 0;
+  background-image: url("ccs.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+h1 {
+    text-align: center;
+    color: hsl(198, 93%, 49%);
+    font-family: sans-serif;
+    background-image: url("ccs.png");
+    background-size: 2em;
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+h2, p, ul, li {
+  font-family: sans-serif;
+}
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+ul.header {
+  background-color: rgb(11, 176, 241);
+  padding: 0;
+}
+ul.header li a {
+  color: #FFF;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+.content {
+  background-color: rgba(254, 255, 253, 0.85);
+  padding: 20px;
+}
+.content h2 {
+  padding: 0;
+  margin: 0;
+}
+.content li {
+  margin-bottom: 10px;
+}
+.active {
+    background-color: rgb(58, 47, 78);
+  }
